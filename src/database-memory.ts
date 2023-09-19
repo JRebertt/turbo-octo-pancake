@@ -1,6 +1,6 @@
 import { randomUUID } from "node:crypto";
 
-interface Product {
+export interface Product {
   name: string;
   description: string;
   price: number;
